@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleeptime</title>
+</head>
+<style>
+    .output {
+        border: 3px solid white;
+        margin-top: 20px;
+        display: none;
+    }
+</style>
+<body style="
+  text-align: center;
+  color:aliceblue;
+  background-color:darkblue;
+  ">
+<h1>Sleeptime</h1>
+<p>If you go to bed NOW, you should wake up at...</p>
+<button onclick ="handleOnClick();">zzz</button>
+
+<div class="output">
+    <p>It takes the average human 14 minutes to fall asleep.</p>
+    <p>If you head to bed right now, you should try to wake up at one of the following times:</p>
+
+    <p id="hours">
+        1:58 PM<br />
+        3:28 PM<br />
+        4:58 PM<br />
+        6:28 PM<br />
+        7:58 PM<br />
+        9:28 PM<br />
+    </p>
+    <p>A good night's sleep consists of 5-6 complete sleep cycles.</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
